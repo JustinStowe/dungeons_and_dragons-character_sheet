@@ -76,3 +76,26 @@ async function signup(req, res) {
     }
   });
 }
+
+async function login(req, res) {
+  try {
+    const user = await User.findOne({ email: req.body.email });
+
+    if (!user) return res.status(401).json({ err: "bad credentials" });
+    user.comparePassword(req.body.password, (err, isMatch) => {
+      if (isMatch) {
+        const token = createJWT(user);
+        res.json({ token });
+      } else {
+        return res.status(401).json({ err: "bad credentials" });
+      }
+    });
+  } catch (error) {
+    console.error(chalk.red("login error:"), chalk.redBright(error));
+    return res.status(401).json(error);
+  }
+}
+
+function createJWT(user) {
+  return jwt.sign({ user }, SECRET, { expiresIn: "24h" });
+}
