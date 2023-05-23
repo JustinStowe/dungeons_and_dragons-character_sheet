@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Routes, Navigation } from "react-router-dom";
 import "./app.css";
-import {} from "../../Pages";
+import { SignupPage, LoginPage, ProfilePage } from "../../Pages";
 
 export function App() {
   const [user, setUser] = useState({});
