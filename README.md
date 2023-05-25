@@ -36,7 +36,7 @@
 <h3 align="center">project_title</h3>
 
   <p align="center">
-    This site is for the Dungeons and Dragons player, this site allows you to create personal profiles for your Character. This allows you to fully customize the lore behind them so people can read up on the before going on an adventure with you.
+    This site is for the Dungeons and Dragons player, this site allows you to create personal profiles/ character sheet for your Character. This allows you to fully customize the backstory, and history behind your character so people can read up on them (Some GM's love it, just saying) before going on an adventure with you.
     <br />
     <a href="https://github.com/JustinStowe/dungeons_and_dragons-character_sheet"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,14 +85,8 @@
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
