@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JustinStowe/dungeons_and_dragons-character_sheet">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/JustinStowe/Photography-business-Portal-FrontEnd">
+    <img src="https://user-images.githubusercontent.com/110639329/233704909-170868e2-f051-42e6-b733-8a77e037d9b9.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">project_title</h3>
@@ -87,6 +87,9 @@
 
 - [![React][React.js]][React-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- [![Express][express.js]][express-url]
+- [![Mongo][mongo.js]][mongo-url]
+- [![NPM][NPM.js]][NPM-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,3 +227,13 @@ Project Link: [https://github.com/JustinStowe/dungeons_and_dragons-character_she
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
+[Express.js]: https://img.shields.io/badge/-Express-green
+[Express-url]: https://expressjs.com/
+[mongo.js]: https://img.shields.io/badge/-MongoDB-blue
+[mongo-url]: https://www.mongodb.com/
+[Tailwindcss-url]: https://tailwindcss.com/
+[tailwindcss.js]: https://img.shields.io/badge/-TailWindCss-blue
+[NPM-url]: https://www.npmjs.com/
+[NPM.js]: https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg
+[node-url]: https://nodejs.org/en
+[node.js]: https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg
