@@ -6,7 +6,7 @@ const upload = multer();
 
 //public routes
 
-router.post("/signup", upload.single("photo"), usersCtrl.signup);
+router.post("/signup", upload.single("photo"), usersCtrl.signUp);
 router.post("/login", usersCtrl.login);
 router.get("/:username", usersCtrl.profile);
 router.post("/updateBio", usersCtrl.updateBio);
